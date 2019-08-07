@@ -1,0 +1,20 @@
+#video-blur {
+    filter: blur(3px);
+    
+}
+.vert-center-text {
+    position: absolute; 
+    top: 40%; 
+    left: 0;
+    text-align: center; 
+    width: 100%; 
+ }
+ 
+ .vert-center-text h1 { 
+     color: white;
+     text-shadow: 1px 1px 3px black; 
+ }
+ 
+ .vert-center-container {
+   position:relative;
+ }

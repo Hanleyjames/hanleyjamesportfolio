@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+@import './assets/css/palette.css';
+@font-face{
+    font-family: C64-Pro;
+    src: url('./assets/fonts/C64_Pro-STYLE.otf') format("opentype");
+}
+body {
+    overflow-x: hidden;
+    font-family: 'C64-Pro', 'arial', sans-serif;
+}
