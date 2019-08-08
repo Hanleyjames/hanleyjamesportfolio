@@ -11,8 +11,12 @@
  }
  
  .vert-center-text h3 { 
-     color: white;
-     text-shadow: 1px 1px 3px black; 
+     color: violet;
+     text-shadow: 2px 2px 3px black; 
+ }
+ .vert-center-text:hover h3{
+     color: purple;
+     text-shadow: 4px 4px 6px violet;
  }
  
  .vert-center-container {
