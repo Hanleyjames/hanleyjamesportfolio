@@ -1,3 +1,7 @@
 #routeroutlet{
-    padding-right: 2em;
+    padding-right: 0px;
+    padding-left:0px;
+}
+#sidebar{
+    z-index: 1;
 }

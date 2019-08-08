@@ -10,13 +10,17 @@
     width: 100%; 
  }
  
- .vert-center-text h3 { 
+h3 { 
      color: violet;
      text-shadow: 2px 2px 3px black; 
  }
- .vert-center-text:hover h3{
+ h3:hover{
      color: purple;
      text-shadow: 4px 4px 6px violet;
+ }
+ h5{
+     color: black;
+     text-shadow: 1px 1px 6px red;
  }
  
  .vert-center-container {
