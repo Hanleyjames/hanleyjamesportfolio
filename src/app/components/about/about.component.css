@@ -1,0 +1,12 @@
+#header{
+    text-align: center;
+}
+#about-me{
+    margin: 2em 2em 2em 2em;
+}
+.paragraph{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: left;
+    text-indent: 3em;
+}
