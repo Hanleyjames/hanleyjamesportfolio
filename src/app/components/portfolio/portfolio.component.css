@@ -5,11 +5,14 @@
     color:white;
     padding: 2em 2em 2em 2em;
 }
-h2 h4 h6 {
+h2 h4 h6 li {
     text-align: center;
 }
 li{
     margin-bottom: 1em;
+}
+alpha-bg{
+    background-color:rgba(0,0,0,0.2);
 }
 .job{
     margin-top: 2em;
@@ -17,4 +20,9 @@ li{
 }
 .company-information{
     margin-bottom: 2em;
+}
+a{
+    text-decoration-color: darkorchid;
+    color: rgb(255, 0, 255);
+    text-shadow:  4px 4px 6px pink;
 }

@@ -9,8 +9,27 @@
     text-align: center; 
     width: 100%; 
  }
- 
-h3 { 
+ .typewriter h4 {
+     overflow: hidden;
+     border-right: .15em solid purple;
+     white-space: nowrap;
+     margin: 0 auto;
+     letter-spacing: .15em;
+     animation:
+     typing 3.5s steps( 40, end ),
+     blink-caret .75s step-end infinite;
+ }
+ @keyframes typing {
+     from { width: 0 }
+     to { width: 100% }
+ }
+ @keyframes blink-caret{
+     from, to { border-color: transparent }
+     50% { border-color: purple; }
+
+ }
+
+h4 { 
      color: violet;
      text-shadow: 2px 2px 3px black; 
  }
@@ -25,4 +44,8 @@ h3 {
  
  .vert-center-container {
    position:relative;
+ }
+ #landing{
+    margin-top: -4px;
+    padding-bottom: -3px;
  }

@@ -12,3 +12,23 @@
     border-left: 0px;
     min-height:100%;
 }
+
+#profilepicture{
+    max-width: 125px;
+    max-height: 125px;
+    border-radius: 50%;
+  }
+  
+  p{
+  
+  }
+  .sidebar-link{
+    margin-bottom: 0px !important;
+    margin-left: 4px;
+    margin-right: 4px;
+    display:flex;
+    align-items: center;
+    color: white;
+    text-decoration: none; /* no underline */
+  }
+  

@@ -1,8 +1,20 @@
-<section class="row">
-  <section id="sidebar" class="col-md-2 dark-primary-color">
-      <app-sidebar></app-sidebar>
-  </section>
-  <section id="routeroutlet" class="col-md-10">
-    <router-outlet></router-outlet>
+<section class="">
+  <section id="sidebar" class="col-md-12 dark-primary-color">
+    <section class="row sidebar">
+      <img class="col-md-2" id="profilepicture" (click)="landingSwitch()" src="./../../../assets/images/portfolioimage.png">
+      <section class="col-md-2"></section>
+        <span class="col-md-2 sidebar-link text-primary-color" (click)="aboutSwitch()">About</span>
+        <span class="col-md-2 sidebar-link text-primary-color" (click)="resumeSwitch()">Resume</span>
+        <span class="col-md-2 sidebar-link text-primary-color" (click)="projectSwitch()">Projects</span>
+        <span class="col-md-2 sidebar-link text-primary-color" (click)="contactSwitch()">Contact</span>
+    </section>
   </section>
 </section>
+<section id="routeroutlet">
+  <app-landing *ngIf="loadLanding"></app-landing>
+  <app-portfolio *ngIf="loadResume"></app-portfolio>
+  <app-about *ngIf="loadAbout"></app-about>
+  <app-contact *ngIf="loadContact"></app-contact>
+  <app-projects *ngIf="loadProjects"></app-projects>
+</section>
+

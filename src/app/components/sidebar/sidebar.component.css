@@ -1,29 +1,19 @@
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
 
-  #profilepicture{
-      padding-top: 2em;
-      padding-bottom: 2em;
-      border-radius: 50%;
-      margin-left: 5px;
-      height:25%;
-      width: 25%;
-  }
-  .sidebar-link{
-      border-style: solid;
-      border-top-width: 1px;
-      border-left-width: 0px;
-      border-right-width:0px;
-      border-bottom-width: 1px;
-      box-shadow: 1px;
-      border-color: #B2DFDB;
-      text-align: center;
-  }
-  a {
-    color: white;
-    text-decoration: none; /* no underline */
-  }
+#profilepicture{
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 50%;
+}
+
+p{
+
+}
+a{
+  margin-bottom: 0px !important;
+  margin-left: 4px;
+  margin-right: 4px;
+  display:flex;
+  align-items: center;
+  color: white;
+  text-decoration: none; /* no underline */
+}
