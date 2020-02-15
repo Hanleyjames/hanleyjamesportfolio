@@ -28,6 +28,8 @@
     margin-right: 4px;
     display:flex;
     align-items: center;
+    align-content: center;
+    text-align: center;
     color: white;
     text-decoration: none; /* no underline */
   }
